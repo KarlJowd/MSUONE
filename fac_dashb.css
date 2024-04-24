@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.List {
+    margin-top: 20px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group a {
+    margin: 0 10px;
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Bio Sans';
+    src: url(FONT/BIO_SANS);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(FONT/MONTSERRAT);
+}
+@font-face {
+    font-family: 'Ondine';
+    src: url(FONT/ONDINE);
+}
+@font-face {
+    font-family: 'Designer';
+    src: url(FONT/DESIGNER);
+}
+
+body{
+    background-image: url(PICS/hero_bot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ondine', sans-serif;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 20px;
+}
+.maintext{
+    width: 786px;
+    max-width: 100%;
+    height: 276px;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+.maintext .msu{
+    height: 100px;
+    width: 100px;
+}
+.maintext p.msutxt{
+    font-size: 30px;
+    font-family: 'Ondine', sans-serif;
+    color: #780007;
+    line-height: 100%;
+    letter-spacing: .3px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.maintext p.one{
+    font-size: 35px;
+    font-family: 'Designer', sans-serif;
+    color: #D76F02;
+    line-height: 100%;
+    letter-spacing: .3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.maintext button{
+    background-color: #780007;
+    font-family: 'Montserrat Black', sans-serif;
+    color: #fff;
+    opacity: .5;
+    font-size: 25px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.maintext button:hover {
+    opacity: 1;
+}
+
+.maintext button:active {
+    opacity: 1;
+}
